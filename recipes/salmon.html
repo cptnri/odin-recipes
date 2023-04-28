@@ -2,52 +2,238 @@
 <html lang="en">
 	<head>
 		<title>Salmon</title>
+		<link rel="icon" type="image/x-icon" href="../images/icon.jpg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="keywords" content="Recipes" />
+		<style>
+			#header{
+				font-family: Garamond;
+				color: #796347;
+				font-size: 50px;
+				padding: 10px;
+				text-align: center;
+				text-decoration: underline;
+			}
+			#back {
+				display: inline-block; 
+				text-decoration: none;
+				background-color: #796347;
+				color: white;
+				border-radius: 25px;
+				padding: 10px;
+				position: fixed;
+				left:5px;
+				top:5px;
+			}
+			#back:hover {
+				color: white;
+				background-color: #ba7a6b;
+				text-decoration: underline;
+			}
+			body {
+				background: #FFFACD;
+			}
+			img {
+				width: 300px;
+				height: 400px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			.content{
+				margin: auto;
+				border: 10px solid #796347;
+				border-style: double;
+				padding: 30px;
+				width: 75%;
+			}
+			.container {
+				font-family: Garamond;
+				margin: auto;
+				margin-top: 37.7%;
+			}
+			.center {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			table,th,tr {
+				border: 1px solid white;
+				border-radius: 25px;
+				border-collapse: collapse;
+				background-color: #796347;
+				padding: 10px;
+				color: #e0eae5;
+			}
+			h4 {
+				text-align: center;
+				background-color: #79644a;
+				color: #FFFACD;
+				border-radius: 25px;
+				width: 500px;
+			}
+			h3 {
+				text-align:center;
+				text-decoration: underline;
+				font-size: 30px;
+				background-color: #FFFACD;
+				border: 3px solid #63594c;
+				color: #79644a;
+				border-radius: 25px;
+				width: 600px;
+			}
+			h2 {
+				text-align:center;
+				text-decoration: underline;
+				font-size: 25px;
+				color: #FFFACD;
+			}
+			.intro {
+				text-align: center;
+				border-radius: 25px;
+				border: 1px solid black;
+				padding: 7px;
+				font-size: 20px;
+				background-color: #796347;
+				color: #e0eae5;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+				overflow: hidden;
+				text-align:center;
+				color: #e0eae5;
+			}
+			.lst {
+				width:890px;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+			ol {
+				text-align:justify;
+				color: #e0eae5;
+				font-size: 20px;
+			}
+			.ins {
+				padding: 10px;
+			}
+			.aprnc {
+				font-size: 20px;
+				width:390px;
+				padding: 10px;
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-top: 20px;
+			}
+			.aprnc:nth-child(even) {
+				float:right;
+			}
+			.aprnc:hover {
+				background-color: #FFFACD;
+				color: #796347;
+			}
+			.enclose {
+				background-color: #796347;
+				border-radius: 25px;
+				border: 1px solid black;
+			}
+			a:link {
+			  color: #ffffe5;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:visited {
+			  color:  #ffffe5;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:hover {
+			  color: black;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+			a:active {
+			  color: #796347;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+		</style>
 	</head>
 	
 	<body>
-		<h1>Salmon with Herb & Garlic Cream Sauce</h1>
-		<img src="../images/salmon.webp" alt="A salmon with garlic cream sauce">
-		<p><b>Servings:</b><i> 4</i>  <b>Prep time: </b><i>5 mins.</i>  <b>Cook time: </b><i>15 mins.</i>  <b>Marinating time: </b><i>20 mins.</i></p>
-		<p></p>
-		<p>Here’s a lovely way to serve the world’s most popular fish – smothered in a cream sauce that’s lifted with a good hit of fresh herbs. </p>
-		<p>The luscious sauce is a sensational match with the rich, oily flesh of the salmon. And the best part? You’ll be done in 15 minutes flat!</p>
-			<h3>Ingredients you need</h3>
-				<h3>Salmon</h3>
-				<ul>
-					<li>4 salmon fillets, skinless</li>
-					<li>1/2 tsp black pepper</li>
-					<li>1/2 tsp salt</li>
-					<li>1 tbsp olive oil, unsalted</li>
-				</ul>
-				<h3>Creamy Garlic Sauce:</h3>
-				<ul>
-					<li>2 garlic cloves, finely minced</li>
-					<li>1/2 cup dry white wine (or more chicken stock) </li>
-					<li>1/2 cup chicken or vegetable stock/broth , low sodium</li>
-					<li>1 cup cream , heavy/thickened</li>
-					<li>1/2 cup parmesan , finely grated</li>
-					<li>2 tsp tarragon leaves* , finely chopped</li>
-					<li>2 tsp chervil* , finely chopped</li>
-					<li>2 tsp parsley* , finely chopped, plus more for garnish</li>
-				</ul>
-			<h3>Instructions on how to make it</h3>
-				<h3>Salmon</h3>
-				<ol>
-					<li>Season: Pat salmon dry, then sprinkle with salt and pepper.</li>
-					<li>Pan-sear: Heat oil in a large non stick skillet over medium high heat. Add salmon, presentation side down, and cook for 3 minutes until golden brown.</li>
-					<li>Flip: Turn salmon and cook the other side for another 2 minutes, until the internal temperature registers 49°C / 120°F (for medium-rare, recommended) or until cooked to your taste </li>
-					<li>Butter baste: When it's almost cooked, add the butter. Melt, then spoon over the salmon a few times.</li>
-					<li>Rest: Remove salmon onto plate, and cover loosely with foil to keep warm.</li>
-				</ol>
-				<h3>Creamy Salmon Sauce</h3>
-				<ol>
-					<li>Sauté garlic: Add garlic and stir for 20 seconds or until light golden.</li>
-					<li>Reduce wine: Add white wine, turn up heat to high. Bring to simmer while stirring base of the pan to dissolve all the golden bits into the sauce. Cook 1 minute or until it most evaporates and the wine-y smell is gone.</li>
-					<li>Thicken cream & stock: Add cream and chicken stock, then simmer on medium heat for 2 – 3 minutes until reduced and slightly thickened.</li>
-					<li>Add parmesan & herbs: Stir through parmesan (this will thicken sauce more), then the herbs. Taste sauce and see if more salt and pepper is needed.</li>
-					<li>Serve salmon with Creamy Sauce, ensuring there's something on the plate to soak up all that amazing sauce!</li>
-				</ol>
-		<a href="#header">Return to top</a>
-		<a href="../index.html"><h5>Back</h5></a>
+		<main>
+			<a id="back" href="../index.html">Back</a>
+			
+			<div class="content">
+				<h1 id="header">Salmon with Herb & Garlic Cream Sauce</h1>
+				<img src="../images/salmon.webp" alt="A salmon with garlic cream sauce">
+				<div class="container">
+					<section>
+						<table class="center">
+						<tr>
+							<th><b>Servings:</b><i> 4</i></th>
+							<th><b>Prep time: </b><i>5 mins.</i></th>
+							<th><b>Cook time: </b><i>15 mins.</i></th>
+							<th><b>Marinating time: </b><i>20 mins.</i></th>
+						</tr>
+						</table>
+					</section>
+					<br />
+					<section  class="intro">
+						<h3 class="center">What you need to know about the food</h3>
+						Here’s a lovely way to serve the world’s most popular fish – smothered in a cream sauce that’s lifted with a good hit of fresh herbs.
+						<br />The luscious sauce is a sensational match with the rich, oily flesh of the salmon. And the best part? You’ll be done in 15 minutes flat!
+					<br />
+					</section>
+					<br />
+					<div class="enclose">
+						<section>
+							<h3 class="center">Ingredients you need</h3>
+							<ul class="lst">
+								<li></li>
+								<li class="aprnc">4 salmon fillets, skinless</li>
+								<li class="aprnc">1/2 tsp black pepper</li>
+								<li class="aprnc">1/2 tsp salt</li>
+								<li class="aprnc">1 tbsp olive oil, unsalted</li>
+								<li class="aprnc">2 garlic cloves, finely minced</li>
+								<li class="aprnc">1/2 cup dry white wine (or more chicken stock) </li>
+								<li class="aprnc">1/2 cup chicken or vegetable stock/broth , low sodium</li>
+								<li class="aprnc">1 cup cream , heavy/thickened</li>
+								<li class="aprnc">1/2 cup parmesan , finely grated</li>
+								<li class="aprnc">2 tsp tarragon leaves* , finely chopped</li>
+								<li class="aprnc">2 tsp chervil* , finely chopped</li>
+								<li class="aprnc">2 tsp parsley* , finely chopped, plus more for garnish</li>
+							</ul>
+						</section>
+						<br />
+						<br />
+						<section>
+							<h3 class="center">Instructions on how to make it</h3>
+								<h2 class="center">Salmon</h3>
+								<ol class="lst">
+									<li class="ins">Season: Pat salmon dry, then sprinkle with salt and pepper.</li>
+									<li class="ins">Pan-sear: Heat oil in a large non stick skillet over medium high heat. Add salmon, presentation side down, and cook for 3 minutes until golden brown.</li>
+									<li class="ins">Flip: Turn salmon and cook the other side for another 2 minutes, until the internal temperature registers 49°C / 120°F (for medium-rare, recommended) or until cooked to your taste </li>
+									<li class="ins">Butter baste: When it's almost cooked, add the butter. Melt, then spoon over the salmon a few times.</li>
+									<li class="ins">Rest: Remove salmon onto plate, and cover loosely with foil to keep warm.</li>
+								</ol>
+								<h2>Creamy Salmon Sauce</h2>
+								<ol class="lst">
+									<li class="ins">Sauté garlic: Add garlic and stir for 20 seconds or until light golden.</li>
+									<li class="ins">Reduce wine: Add white wine, turn up heat to high. Bring to simmer while stirring base of the pan to dissolve all the golden bits into the sauce. Cook 1 minute or until it most evaporates and the wine-y smell is gone.</li>
+									<li class="ins">Thicken cream & stock: Add cream and chicken stock, then simmer on medium heat for 2 – 3 minutes until reduced and slightly thickened.</li>
+									<li class="ins">Add parmesan & herbs: Stir through parmesan (this will thicken sauce more), then the herbs. Taste sauce and see if more salt and pepper is needed.</li>
+									<li class="ins">Serve salmon with Creamy Sauce, ensuring there's something on the plate to soak up all that amazing sauce!</li>
+								</ol>
+						</section>
+						<h4 class="center">All recipes featured are from:<a href="https://www.recipetineats.com/" target="_blank" title="Go to recipetineats"> recipetineats </a></h4>
+					</div>
+				</div>
+			</div>
+			<h4 class="center"><a href="#header">Return to top</a><h4>
+		</main>
 	</body>
 </html>
