@@ -1,0 +1,151 @@
+#header{
+	font-family: Garamond;
+	color: #796347;
+	font-size: 50px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: underline;
+}
+#back {
+	display: inline-block; 
+	text-decoration: none;
+	background-color: #796347;
+	color: white;
+	border-radius: 25px;
+	padding: 10px;
+	position: fixed;
+	left:5px;
+	top:5px;
+}
+#back:hover {
+	color: white;
+	background-color: #ba7a6b;
+	text-decoration: underline;
+}
+body {
+	background: #FFFACD;
+}
+img {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.content{
+	margin: auto;
+	border: 10px solid #796347;
+	border-style: double;
+	padding: 30px;
+	width: 75%;
+}
+.container {
+	font-family: Garamond;
+	margin: auto;
+	margin-top: 37.7%;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+table,th,tr {
+	border: 1px solid white;
+	border-radius: 25px;
+	border-collapse: collapse;
+	background-color: #796347;
+	padding: 10px;
+	color: #e0eae5;
+}
+h4 {
+	text-align: center;
+	background-color: #79644a;
+	color: #FFFACD;
+	border-radius: 25px;
+	width: 500px;
+}
+h3 {
+	text-align:center;
+	text-decoration: underline;
+	font-size: 30px;
+	background-color: #FFFACD;
+	border: 3px solid #63594c;
+	color: #79644a;
+	border-radius: 25px;
+	width: 600px;
+}
+h2 {
+	text-align:center;
+	text-decoration: underline;
+	font-size: 25px;
+	color: #FFFACD;
+}
+.intro {
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid black;
+	padding: 7px;
+	font-size: 20px;
+	background-color: #796347;
+	color: #e0eae5;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	text-align:center;
+	color: #e0eae5;
+}
+.lst {
+	width:890px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+ol {
+	text-align:justify;
+	color: #e0eae5;
+	font-size: 20px;
+}
+.ins {
+	padding: 10px;
+}
+.aprnc {
+	font-size: 20px;
+	width:390px;
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.aprnc:nth-child(even) {
+	float:right;
+}
+.aprnc:hover {
+	background-color: #FFFACD;
+	color: #796347;
+	}
+.enclose {
+	background-color: #796347;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+a:link {
+	color: #ffffe5;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color:  #ffffe5;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: #796347;
+	background-color: transparent;
+	text-decoration: underline;
+}
